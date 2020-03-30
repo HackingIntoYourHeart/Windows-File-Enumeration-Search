@@ -106,7 +106,5 @@ string raw_input(string text){
 int main(){
 
 	cout << enumerateFiles( raw_input("Dir: "), raw_input("Term: ") );
-	
-	system("pause");
 
 }
