@@ -74,7 +74,7 @@ string enumerateFiles(string DIR, string term){
 			if ( (isFile( File.c_str() )) && (parseFile(File, term)) ){
 			
 				data += (File + "\n");
-				cout << File << endl;
+				//cout << File << endl;
 			
 			}else if ( isDir( File.c_str() ) ){
 
